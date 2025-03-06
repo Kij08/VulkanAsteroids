@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{8fec78e9-f915-4368-b4bc-d7c1da731149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PrimitiveTypes">
+      <UniqueIdentifier>{2b301dbc-0e93-48de-994f-b7f02c9871d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Renderer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Level.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\Player.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\Object.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\Asteroid.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PrimitiveTypes\Mesh.h">
+      <Filter>Source Files\PrimitiveTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PrimitiveTypes\Window.h">
+      <Filter>Source Files\PrimitiveTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\Skybox.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PrimitiveTypes\CollisionCalculation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PrimitiveTypes\CapsuleCollider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PrimitiveTypes\Collider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\PhysicsObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects\Object.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects\Player.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects\Asteroid.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PrimitiveTypes\Mesh.cpp">
+      <Filter>Source Files\PrimitiveTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PrimitiveTypes\CollisionCalculation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PrimitiveTypes\CapsuleCollider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PrimitiveTypes\Collider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects\PhysicsObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ObjectTextures\Asteroid_LRG_CLR.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ObjectTextures\Asteroid_MED_CLR.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ObjectTextures\Asteroid_SML_CLR.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ObjectTextures\Space_CLR.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ObjectTextures\SpaceShip_CLR.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ObjectTextures\viking_room.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Shaders\frag.spv" />
+    <None Include="Source\Shaders\skybox-frag.spv" />
+    <None Include="Source\Shaders\skybox-vert.spv" />
+    <None Include="Source\Shaders\vert.spv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="ObjectModels\Space_Sphere.obj" />
+    <Media Include="ObjectModels\CH_Player_Ship.obj" />
+    <Media Include="ObjectModels\SM_Asteroid_LRG_A.obj" />
+    <Media Include="ObjectModels\SM_Asteroid_MED_A.obj" />
+    <Media Include="ObjectModels\SM_Asteroid_SML_A.obj" />
+  </ItemGroup>
+</Project>
